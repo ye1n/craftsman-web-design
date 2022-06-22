@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./images/logo.jpg" alt="logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">협회소개</a>
+                        <ul>
+                            <li><a href="#">인삿말</a></li>
+                            <li><a href="#">명인</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">행사안내</a>
+                        <ul>
+                            <li><a href="#">요리경연대회</a></li>
+                            <li><a href="#">전시참가</a></li>
+                            <li><a href="#">참가신청</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">홍보마당</a>
+                        <ul>
+                            <li><a href="#">축제소식</a></li>
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">레시피</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">회원마당</a>
+                        <ul>
+                            <li><a href="#">Q&A</a></li>
+                            <li><a href="#">사진갤러리</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main_contents">
+            <div class="slide">
+                <a href="#"><img src="./images/slide1.jpg" alt="slideImg1"></a>
+                <a href="#"><img src="./images/slide2.png" alt="slideImg2"></a>
+                <a href="#"><img src="./images/slide3.png" alt="slideImg3"></a>
+            </div>
+            <div class="contents">
+                <div class="notice">
+                    <div class="notice_tab"><a href="#">공지사항</a></div>
+                    <div class="notice_box">
+                        <ul>
+                            <li><a href="javascript:openPop();">제6회 남도맛기행 축제가<br>온/오프라인에서...</a></li>
+                            <li>2022-04-20</li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">한국의 맛 요리 경연대회 수상자</a></li>
+                            <li>2022-03-18</li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">한국의 맛 요리경연대회 본선작 안내</a></li>
+                            <li>2022-02-20</li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">한국의 맛 요리 경연대회 예선 접수중</a></li>
+                            <li>2022-01-01</li>
+                        </ul>
+                    </div>
+                    <div class="pop">
+                        <p>제6회 남도맛기행 축제가 온/오프라인에서...</p>
+                        <p>제6회 남도맛기행 축제가 ‘한국의 맛을 담은 최고의 밀키트를 찾아라’ 라는 주제로 온/오프라인에서 10월25일부터 30일까지 개최됩니다.<br>
+                            올 봄 남도맛기행 축제에서 다양한 한국의 맛을 경험하세요.</p>
+                        <button id="exit" onclick="closePop()">X 닫기</button>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="gallery_tab"><a href="#">갤러리</a></div>
+                    <div class="gallery_box">
+                        <a href="#"><img src="./images/gallery1.jpg" alt="galleryImg1"></a>
+                        <a href="#"><img src="./images/gallery2.jpg" alt="galleryImg2"></a>
+                        <a href="#"><img src="./images/gallery3.jpg" alt="galleryImg3"></a>
+                    </div>
+                </div>
+                <div class="banner">
+                    <a href="#"><img src="./images/banner1.png" alt="bannerImg1"></a>
+                    <a href="#"><img src="./images/banner2.png" alt="bannerImg2"></a>
+                    <a href="#"><img src="./images/banner3.png" alt="bannerImg3"></a>
+                    <a href="#"><img src="./images/banner4.png" alt="bannerImg4"></a>
+                </div>
+            </div>
+            <footer>
+                <div class="logo">
+                    <a href="#"><img src="./images/logo.jpg" alt="logo"></a>
+                </div>
+                <div class="right_contents">
+                    <p>개인정보보호방침 | 개인정보처리방침</p>
+                    <p>Copyright ⓒ2019 Mkhealth. All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
