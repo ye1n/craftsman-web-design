@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #222328;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    display: flex;
+    position: relative;
+}
+
+header {
+    width: 20%;
+    height: 100%;
+    border: 1px solid #333;
+}
+
+.logo {
+    width: 100%;
+    height: 40px;
+}
+
+.logo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 40px;
+}
+
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    margin: 20px;
+    width: 160px;
+}
+
+.menu > ul > li{
+    background-color: rgb(214, 214, 214);
+}
+
+.menu > ul > li:hover{
+    background-color: rgb(144, 144, 144);
+}
+
+.menu a{
+    line-height: 40px;
+    display: block;
+    text-align: center;
+}
+
+.menu > ul > li > ul {
+    display: none;
+    background-color: rgb(144, 144, 144);
+}
+
+.menu > ul > li > ul > li:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+.main {
+    width: 80%;
+    height: 650px;
+}
+
+.slide {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.slide > a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slide > a img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide > a:first-child {
+    opacity: 1;
+}
+
+.contents{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5px 0 5px;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    margin: 0 7px 7px 7px;
+    padding-top: 7px;
+}
+
+.window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 27, 27, 0.438);
+    display: none;
+    z-index: 900;
+}
+
+.pop {
+    background-color: #fff;
+    display: none;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    z-index: 1000;
+}
+
+.pop p  {
+    padding: 20px;
+    line-height: 30px;
+}
+
+#exit {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.tab {
+    width: 80px;
+    height: 30px;
+    /* padding: 0 10px 0 10px; */
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px 5px 0 0;
+}
+
+.tab a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+}
+
+.box {
+    width: 280px;
+    height: 150px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 0 5px 5px 5px;
+}
+
+.gallery .box{
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5px 0 5px;
+}
+
+.gallery img{
+    width: 80px;
+    height: 80px;
+}
+
+.baro {
+    width: 200px;
+}
+
+.baro img{
+    width: 200px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(214, 214, 214);
+}
+
+footer .leftContents {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftContents .sns {
+    display: flex;
+    font-size: 10px;
+}
+
+.leftContents .sns div{
+    margin: 0 5px 0 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
