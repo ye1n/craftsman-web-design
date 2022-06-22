@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">소장처별</a>
+                        <ul>
+                            <li><a href="#">한국</a></li>
+                            <li><a href="#">프랑스</a></li>
+                            <li><a href="#">이탈리아</a></li>
+                            <li><a href="#">독일</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">장르별</a>
+                        <ul>
+                            <li><a href="#">회화</a></li>
+                            <li><a href="#">판화</a></li>
+                            <li><a href="#">공예/고대유물</a></li>
+                            <li><a href="#">그 외</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">테마별</a>
+                        <ul>
+                            <li><a href="#">초상화/인물</a></li>
+                            <li><a href="#">종교</a></li>
+                            <li><a href="#">신화/문학</a></li>
+                            <li><a href="#">일상/스포츠</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">시대별</a>
+                        <ul>
+                            <li><a href="#">1900년이전</a></li>
+                            <li><a href="#">1900년대</a></li>
+                            <li><a href="#">현대</a></li>
+                            <li><a href="#">그 외</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="slide">
+            <a href="#"><img src="./images/slide1.png" alt=""></a>
+            <a href="#"><img src="./images/slide2.png" alt=""></a>
+            <a href="#"><img src="./images/slide3.png" alt=""></a>
+        </div>
+        <div class="contents">
+            <div class="notice">
+                <div class="tab"><a href="#">공지사항</a></div>
+                <div class="notice_box">
+                    <ul>
+                        <li><a href="javascript:openPop();">2021 예술의전당 대학가곡축제 참여자 모집 공고</a></li>
+                        <li>2021-05-20</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">고객안내서비스 "챗봇" 이용 안내</a></li>
+                        <li>2021-05-18</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">예술의전당 하우스 어텐던트 67기 모집</a></li>
+                        <li>2021-04-20</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">사회적 거리두기 2단계 예술의전당 이용 안내</a></li>
+                        <li>2021-04-01</li>
+                    </ul>
+                </div>
+                <div class="pop">
+                    <p>
+                        예술의전당 대학 가곡축제<br><br>
+
+                        예술의전당은 우리말 가곡에 대해 국민적 관심을 도모하고 성악을 전공하는 학생들에게 특별한 무대 경험을 제공하는 2021 대학가곡축제를 개최합니다.<br>
+                        참여자 전원에게는 공연 준비를 위한 멘토링이 제공되며, 참신한 아이디어로 우리가곡을 선보이는 개인과 단체에게는 공연 결과에 따라 예술의전당 기획 공연의 출연 기회가 주어집니다.<br>
+                        많은 관심과 참여 부탁드립니다.
+                    </p>
+                    <button id="exit" onclick="closePop()">X 닫기</button>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="tab"><a href="#">갤러리</a></div>
+                <div class="gallery_box">
+                    <a href="#"><img src="./images/gallery1.jpg" alt=""></a>
+                    <a href="#"><img src="./images/gallery2.jpg" alt=""></a>
+                    <a href="#"><img src="./images/gallery3.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="banner">
+                <a href="#"><img src="./images/banner1.png" alt=""></a>
+                <a href="#"><img src="./images/banner2.png" alt=""></a>
+                <a href="#"><img src="./images/banner3.png" alt=""></a>
+            </div>
+        </div>
+        <footer>
+            <div class="logo">
+                <a href="#"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <p>copyrightⓒ2020 Seoul Arts Center. All rights Reserved.</p>
+            <div class="sns">
+                <div class="f"><a href="#">페이스북</a></div>
+                <div class="i"><a href="#">인스타그램</a></div>
+                <div class="y"><a href="#">유튜브</a></div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
