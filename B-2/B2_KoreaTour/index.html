@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./images/logo.png" alt="logo"></a>
+            </div>
+            <nav>
+                <div class="main_nav">
+                    <ul>
+                        <li><a href="#">해외여행</a></li>
+                        <li><a href="#">국내여행</a></li>
+                        <li><a href="#">제주도</a></li>
+                        <li><a href="#">렌터카</a></li>
+                    </ul>
+                </div>
+                <div class="sub_nav">
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">동남아/대만</a></li>
+                            <li><a href="#">중국/홍콩</a></li>
+                            <li><a href="#">유럽/두바이</a></li>
+                            <li><a href="#">미주/하와이</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">서울/경기권</a></li>
+                            <li><a href="#">충청권</a></li>
+                            <li><a href="#">전라권</a></li>
+                            <li><a href="#">경상/강원권</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">버스여행</a></li>
+                            <li><a href="#">자유여행</a></li>
+                            <li><a href="#">호텔/펜션</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">국내 렌터카</a></li>
+                            <li><a href="#">국외 렌터카</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="slide">
+            <a href="#"><img src="./images/slide1.jpg" alt="slideImg"></a>
+            <a href="#"><img src="./images/slide2.jpg" alt="slideImg"></a>
+            <a href="#"><img src="./images/slide3.jpg" alt="slideImg"></a>
+        </div>
+        <div class="contents">
+            <div class="notice">
+                <div class="tab"><a href="#">공지사항</a></div>
+                <div class="notice_box">
+                    <ul>
+                        <li><a href="javascript:openPop();">고객님만을 위한 추천여행</a></li>
+                        <li>2020-06-15</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">줄을 서시오~티옵 확정! 봄 골프</a></li>
+                        <li>2020-06-10</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">또 다른 즐거움, 조식의 발견</a></li>
+                        <li>2020-06-08</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">청정함을 담은 신비의 섬, 울릉도</a></li>
+                        <li>2020-06-01</li>
+                    </ul>
+                </div>
+                <div class="window">
+                    <div class="pop">
+                        <p class="title">고객님만을 위한 추천여행</p>
+                        <p>봄 찾아 떠나는 제주 여행 여기서 다 준비해 봄!<br>
+                            제주 항공·호텔·렌터카·입장권 모아 모아서 봄 여행 준비 끝!</p>
+                        <button id="exit" onclick="closePop()">X 닫기</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="tab"><a href="#">갤러리</a></div>
+                <div class="gallery_box">
+                    <a href="#"><img src="./images/gallery1.jpg" alt="gallery1"></a>
+                    <a href="#"><img src="./images/gallery2.jpg" alt="gallery2"></a>
+                    <a href="#"><img src="./images/gallery3.jpg" alt="gallery3"></a>
+                </div>
+            </div>
+            <div class="baro">
+                <a href="#"><img src="./images/shortcut1.png" alt="baro1"></a>
+                <a href="#"><img src="./images/shortcut2.png" alt="baro2"></a>
+                <a href="#"><img src="./images/shortcut3.png" alt="baro3"></a>
+            </div>
+        </div>
+        <footer>
+            <p>COPYRIGHT 1994 ⓒ 대한투어 ALL RIGHTS RESERVED.</p>
+            <div class="right_contents">
+                <div class="sns">
+                    <a href="#">google</a>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+                </div>
+                <select name="family">
+                    <option value="intro">회사소개</option>
+                    <option value="hana">하나투어</option>
+                    <option value="yangyoung">양영가이드</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
