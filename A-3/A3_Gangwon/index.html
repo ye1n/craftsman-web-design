@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./images/logo.jpg" alt="logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">강원천문대</a>
+                        <ul>
+                            <li><a href="#">천문대소개</a></li>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">이용안내</a>
+                        <ul>
+                            <li><a href="#">프로그램</a></li>
+                            <li><a href="#">관람시간표</a></li>
+                            <li><a href="#">이달의 별자리</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">천문대예약</a>
+                        <ul>
+                            <li><a href="#">예약하기</a></li>
+                            <li><a href="#">예약확인</a></li>
+                            <li><a href="#">예약취소</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">커뮤니티</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">방문후기</a></li>
+                            <li><a href="#">자유게시판</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="slide">
+            <a href="#"><img src="./images/slide1.jpg" alt="slideImg"></a>
+            <a href="#"><img src="./images/slide2.png" alt="slideImg"></a>
+            <a href="#"><img src="./images/slide3.png" alt="slideImg"></a>
+        </div>
+        <div class="contents">
+            <div class="tab_contents">
+                <div class="tabs">
+                    <div class="notice_tab"><a href="#">공지사항</a></div>
+                    <div class="gallery_tab"><a href="#">갤러리</a></div>
+                </div>
+                <div class="notice">
+                    <ul>
+                        <li><a href="javascript:openPop();">2022년 5월 온라인 예매 및 휴관일 안내</a></li>
+                        <li>2022-04-20</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">동절기우회도로안내(삼옥,정선,태백방면)</a></li>
+                        <li>2022-03-18</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">강원천문대 재개관일 및 방역패스 시행 안내</a></li>
+                        <li>2022-02-20</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">온라인 예매 시 안내사항</a></li>
+                        <li>2022-01-01</li>
+                    </ul>
+                    <div class="pop">
+                        <p class="title">2022년 5월 온라인 예매 및 휴관일 안내</p>
+                        <p>5월 온라인 예매 시작일 : 2022년 4월 1일(금) 15:30<br>
+                            2022년 5월 휴관일 : 2일(월), 9일(월), 10일(화), 16일(월), 23일(월), 30일(월)<br>
+                            - 매주 월요일은 정기휴관입니다.<br>
+                            - 10일은 5일(어린이날) 대체휴무입니다.</p>
+                        <button id="exit" onclick="closePop()">X 닫기</button>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <a href="#"><img src="./images/gallery1.jpg" alt="gallery"></a>
+                    <a href="#"><img src="./images/gallery2.jpg" alt="gallery"></a>
+                    <a href="#"><img src="./images/gallery3.jpg" alt="gallery"></a>
+                </div>
+            </div>
+            <div class="banner">
+                <a href="#"><img src="./images/banner1.png" alt="banner"></a>
+                <a href="#"><img src="./images/banner2.png" alt="banner"></a>
+                <a href="#"><img src="./images/banner3.png" alt="banner"></a>
+                <a href="#"><img src="./images/banner4.png" alt="banner"></a>
+            </div>
+            <div class="shortcut">
+                <a href="#"><img src="./images/shortcut1.png" alt="shortcut"></a>
+                <a href="#"><img src="./images/shortcut2.png" alt="shortcut"></a>
+                <a href="#"><img src="./images/shortcut3.png" alt="shortcut"></a>
+            </div>
+        </div>
+        <footer>
+            <div class="logo">
+                <a href="#"><img src="./images/logo.jpg" alt="logo"></a>
+            </div>
+            <div class="left_contents">
+                <p><a href="#">개인정보보호방침</a> | <a href="#">개인정보처리방침</a></p>
+                <p>Copyright 2010 YeongWolgun Facilities</p>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
